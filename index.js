@@ -6,3 +6,5 @@ function nestedTarget() {
   return;
 }
 
+increaseRankBy(n)
+
