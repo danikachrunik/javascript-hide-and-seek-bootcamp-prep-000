@@ -6,5 +6,11 @@ function nestedTarget() {
   return;
 }
 
-increaseRankBy(n)
+function increaseRankBy(n) {
+  return;
+}
+
+function deepestChild() {
+  return;
+}
 
