@@ -18,6 +18,7 @@ function deepestChild() {
   if(elem[0].hasChildNodes) {
     elem = elem[0].querySelectorAll('div');
   } else {
+    console.log(elem);
     return elem;
   }
 }
