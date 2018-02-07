@@ -19,11 +19,11 @@ function deepestChild() {
   if(!elem[0].hasChildNodes()) {
     return elem;
   } else {
-    
+    elem = elem[0].querySelectorAll('div');
   }
   
   while (elem[0].hasChildNodes()) {
-    elem = elem[0].querySelectorAll('div');
+    
   }
 }
 
