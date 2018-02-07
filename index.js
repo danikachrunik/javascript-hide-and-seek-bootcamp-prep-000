@@ -22,7 +22,7 @@ function deepestChild() {
     elem = elem[0].querySelectorAll('div');
   }
   
-  while (elem[0].hasChildNodes()) {
+  
     
   }
 }
